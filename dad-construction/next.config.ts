@@ -1,7 +1,12 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: 'export',
+  basePath: '/dad-construction',
+  assetPrefix: '/dad-construction/',
+  images: {
+    unoptimized: true,
+  },
   reactCompiler: true,
 };
 
